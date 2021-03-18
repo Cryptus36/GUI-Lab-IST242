@@ -177,11 +177,11 @@ void readFile(String fileName){
 
 			else{
 
-// Accept the date
+// Accept the date for the employee
 
 				String date = JOptionPane.showInputDialog("Enter Pay Period End Date.");
 
-// Accepts the hours worked
+// Accepts the hours worked by employee
 
 				double work = Double.parseDouble(JOptionPane.showInputDialog("Enter Hours Worked."));
 
